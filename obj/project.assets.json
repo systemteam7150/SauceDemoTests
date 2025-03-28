@@ -1723,24 +1723,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dmytr\\.nuget\\packages\\": {}
+    "C:\\Users\\DmytroStoliar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dmytr\\source\\repos\\SauceDemoTests\\SauceDemoTests\\SauceDemoTests.csproj",
+      "projectUniqueName": "C:\\Users\\DmytroStoliar\\source\\repos\\SauceDemoTests\\SauceDemoTests.csproj",
       "projectName": "SauceDemoTests",
-      "projectPath": "C:\\Users\\dmytr\\source\\repos\\SauceDemoTests\\SauceDemoTests\\SauceDemoTests.csproj",
-      "packagesPath": "C:\\Users\\dmytr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dmytr\\source\\repos\\SauceDemoTests\\SauceDemoTests\\obj\\",
+      "projectPath": "C:\\Users\\DmytroStoliar\\source\\repos\\SauceDemoTests\\SauceDemoTests.csproj",
+      "packagesPath": "C:\\Users\\DmytroStoliar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DmytroStoliar\\source\\repos\\SauceDemoTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dmytr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\DmytroStoliar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1757,9 +1759,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -1806,7 +1808,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

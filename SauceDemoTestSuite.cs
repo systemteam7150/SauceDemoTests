@@ -58,7 +58,7 @@ namespace SauceDemoTests
             foreach (var item in items)
             {
                 decimal price = Convert.ToDecimal(item.Text.Replace("$", ""));
-                if (total + price <= 60)
+                if (total < 30 && total + price <= 60)
                 {
                     item.FindElement(By.XPath("following-sibling::button")).Click();
                     total += price;
